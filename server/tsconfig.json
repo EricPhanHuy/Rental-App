@@ -44,5 +44,5 @@
     "moduleDetection": "force",
     "skipLibCheck": true,
   },
-  "include": ["src/**/*","scr/data/**/*.json", "prisma/**/*"]
+  "include": ["src/**/*","scr/data/**/*.json", "../asset-download/server/prisma/**/*"]
 }
