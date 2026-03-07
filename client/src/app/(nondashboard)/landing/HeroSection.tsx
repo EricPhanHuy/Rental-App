@@ -26,11 +26,12 @@ const HeroSection = () => {
           <div className="max-w-4xl mx-auto px-16 sm:px-12">
             <h1 className="text-5xl font-bold text-white mb-4">
               Start your journey to finding your perfect place to call home
+              <p className="text-xl text-white mb-8">
+                Explore our wide range of rental properties tailored to fit your
+                lifestyles and needs
+              </p>
             </h1>
-            <p className="text-xl text-white mb-8">
-              Explore our wide range of rental properties tailored to fit your
-              lifestyles and needs
-            </p>
+
             <div className="flex justify-center">
               <Input
                 type="text"
