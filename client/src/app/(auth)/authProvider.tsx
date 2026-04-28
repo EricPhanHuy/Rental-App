@@ -130,7 +130,7 @@ const Auth = ({ children }: { children: React.ReactNode }) => {
   const isDashboardPage =
     pathname.startsWith("/manager") || pathname.startsWith("/tenants");
 
-  //Redirect authenticated users away from auth pages
+  // Redirect authenticated users away from auth pages
   useEffect(() => {
     if (user && isAuthPage) {
       router.push("/landing");
